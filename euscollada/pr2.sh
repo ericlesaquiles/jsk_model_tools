@@ -3,7 +3,7 @@
 if [ -w `rospack find euscollada` ]; then
     cd `rospack find euscollada`
 else
-    echo "euscollada direcotry is not writable, so write to current directory"
+    echo "euscollada directory is not writable, so write to current directory"
 fi
 
 #rosrun collada_urdf_jsk_patch urdf_to_collada `rospack find pr2_mechanism_model`/pr2.urdf pr2.dae
